@@ -1,14 +1,23 @@
 function up_key() {
-	move_event(-1,0);
+	var dx = 0, dy = 0;
+	dx = -1;
+	dy = 0;
+	move_event(dx,dy);
 }
 function down_key() {
-	move_event(1,0);
+	var dx = 1;
+	var dy = 0;
+	move_event(dx,dy);
 }
 function left_key() {
-	move_event(0,-1);
+	var dx = 0;
+	var dy = -1;
+	move_event(dx,dy);
 }
 function right_key() {
-	move_event(0,1);
+	var dx = 0;
+	var dy = 1;
+	move_event(dx,dy);
 }
 //键盘监听(控制勇士移动等)
 window.addEventListener("keydown"||"mousemove", function (event) {

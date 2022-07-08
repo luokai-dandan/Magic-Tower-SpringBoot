@@ -10,6 +10,6 @@ public class WebTemplateController {
 
     @GetMapping("")
     public String index() {
-        return "redirect:/mota_nokey/index.html";
+        return "redirect:/mota_nokeyboard/index.html";
     }
 }
