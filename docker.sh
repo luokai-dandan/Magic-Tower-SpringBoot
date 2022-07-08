@@ -3,7 +3,7 @@
 mvn clean package
 echo 'package ok!'
 echo 'build start!'
-cd ./mota
+cd ./
 service_name="mota"
 service_port=10086
 #查看镜像id
