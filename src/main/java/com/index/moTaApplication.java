@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Author luokai
  */
 @SpringBootApplication
-public class webTemplateApplication {
+public class moTaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(webTemplateApplication.class, args);
+        SpringApplication.run(moTaApplication.class, args);
     }
 
 }

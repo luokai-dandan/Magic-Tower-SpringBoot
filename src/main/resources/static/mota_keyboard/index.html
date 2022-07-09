@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/init.css">
 	</head>
 	<body ondragstart="return false;">
-		<div style="background-color: aquamarine;height: 1200px;user-select: none"">
+		<div style="background-color: aquamarine;height: 1200px;user-select: none">
 			<div id="game" class="game">
 				<div id="attribute" class="attribute">
 					<div id="floor" class="floor"></div>
@@ -85,10 +85,13 @@
 					<button type="button" onclick="save()" style="width: 150px;height: 80px;">存档</button>
 					<button type="button" onclick="load()" style="width: 150px;height: 80px;margin-left: 650px">读档</button>
 					<button type="button" onclick="restart()" style="width: 150px;height: 80px;margin-top: 300px;">重新开始</button>
-					<button type="button" onclick="flush()" style="width: 150px;height: 80px;margin-top: 300px;margin-left: 650px">刷新</button>
+					<a href="/nokey">
+						<button type="button" style="width: 150px;height: 80px;margin-top: 300px;margin-left: 650px">无键版</button>
+					</a>
+
 				</div>
-				
-				
+
+
 				<div id="direc_key" style="position: absolute;margin-top: 680px;margin-left: 430px;">
 					<div id="up_key" onclick="up_key()" style="position: absolute;">
 						<img src="images/keyboard/up.png" onclick="up_key" alt="上" style="width: 150px;height: 80px;">
@@ -104,7 +107,7 @@
 					</div>
 					<div id="right_key" onclick="right_key()" style="position: absolute;margin-top: 100px;margin-left: 172px;">
 						<img src="images/keyboard/right.png" alt="右" style="width: 80px;height: 150px;">
-						
+
 					</div>
 				</div>
 			</div>
